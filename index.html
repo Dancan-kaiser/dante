@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <section class="main">
+        <div class="img-container">
+            <img class="img" src="roberto.jpg" style="height: 70px; width: 70px; border-radius: 999px;" alt="">
+        </div>
+        <div class="sub-main">
+            <!-- anchor tags home about contact login -->
+            <a href="#"><h4>Home</h4></a>
+            <a href="#"><h4>About</h4></a>
+            <a href="#"><h4>information</h4></a>
+            <a href="#" style="border-radius: 4px; text-decoration: underline;"><h4>contact us</h4></a>
+        </div>
+    </section>
+    
+    <div class="slider">
+        <div class="slider-container">
+           
+                <div class="slider-item">
+                  <img src="brandon.jpg" alt="Road">
+                  <h3>Road</h3>
+                  <p>Photo by John </p>
+                </div>
+                <div class="slider-item">
+                  <img src="roberto.jpg" alt="Vintage">
+                  <h3>Vintage</h3>
+                  <p>Photo by Jane</p>
+                </div>
+                <div class="slider-item">
+                  <img src="rashfod.jpg" alt="Concert">
+                  <h3>Concert</h3>
+                  <p>Photo by Bob </p>
+                </div>
+                <div class="slider-item">
+                  <img src="mattia.jpg" alt="Landscape">
+                  <h3>Landscape</h3>
+                  <p>Photo by Williams</p>
+                </div>
+                <div class="slider-item">
+                  <img src="martin.jpg" alt="Burger">
+                  <h3>Burger</h3>
+                  <p>Photo by Jack</p>
+                </div>
+                <div class="slider-item">
+                  <img src="dk.jpg" alt="Tent">
+                  <h3>Tent</h3>
+                  <p>Photo by  Davis</p>
+                </div>
+                <div class="slider-item">
+                  <img src="karl.jpg" alt="Beautiful">
+                  <h3>Beautiful</h3>
+                  <p>Photo by  Lee</p>
+                </div>
+                <div class="slider-item">
+                  <img src="velito.jpg" alt="Tie">
+                  <h3>Tie</h3>
+                  <p>Photo by Emily </p>
+                </div>
+             
+        </div>
+        <div class="slider-controls">
+          <button class=" prev slider-control"><img class="img" src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/null/external-left-arrows-kmg-design-glyph-kmg-design.png"/></button>
+          <button class=" next slider-control"><img class="img" src="https://img.icons8.com/sf-black/64/null/long-arrow-right.png"/></button>
+        </div>
+      </div>
+      <div class="wrapper">
+       
+        <div class="content">
+          <h1>Dashboard</h1>
+          <p>
+            <iframe  id="content" src="home.html" frameborder="0">
+               
+            </iframe>
+          </p>
+        </div>
+        <div class="sidebar">
+            <ul>
+              <li>   <a onclick="document.getElementById('content').src='home.html'" class="a-ref">Home</a></li>
+              <li>    <a onclick="document.getElementById('content').src='sidebar.html'" class="a-ref">About</a></li>
+              <li>    <a onclick="document.getElementById('content').src='table.html'" class="a-ref">Table</a></li>
+              <li>   <a onclick="document.getElementById('content').src='content.html'" class="a-ref">Contact</a></li>
+            </ul>
+          </div>
+      </div>
+      
+<div class="foot">Dancan Kaiser &copy; Copyrights 2023</div>
+    <script src="index.js"></script>
+</body>
+</html>
